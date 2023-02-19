@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+body {
+     background-color: #282828;
+     margin:0;
+     padding: 0;
+}
+
+a {
+     text-decoration: none;
+}
+
+/* MAIN ////////////////////////////////////////////////////////////// */
+
+main {
+     background-color: #fff;
+}
+
+main .content {
+     padding-top: 40px;
+     padding-bottom: 40px;
+}
+
+main .pg-header {
+     padding: 60px 0;
+     background: #e6e6e6;
+}
+
+main .pg-header h1 {
+     color: #333;
+     font-weight: 600;
+     font-size: 32px;
+     text-transform: uppercase;
+     margin: 0;
+}
+/*Header */
+header .nav-link{
+     padding: 10px;
+     margin-left:12px;
+     font-weight: 700;
+     color: #999;
+     border-radius: 0;
+     font-size: 14px;
+}
+header .nav-link.active{
+     background-color: rgb(181, 42, 53);
+     color: #fff;
+}
+header .logo{
+     transform: rotate(-6deg);
+     transition: all 0.3s ease;
+     font-size: 28px;
+}
+header .logo:hover{
+     transform: rotate(0deg);
+}
+header .Brand {
+     font-size: 30px;
+     color: #fff;
+     font-weight: 700;
+     font-family: 'Leckerli One', cursive;
+     background-color: #2d2d2d;
+     border-radius: 40px;
+     border-bottom: 2px solid #6294de;
+     text-shadow: 2px 2px 0px #000;
+}
+
+/* About */
+.about h2{
+     text-transform: uppercase;
+     font-size: 22px;
+     font-weight: 600;
+     padding-bottom: 10px;
+     position: relative;
+     margin-bottom: 20px;
+
+}
+.about h2::after{
+     position: absolute;
+     content: ' ';
+     width: 50px;
+     bottom: -6px;
+     height: 2px;
+     background: #666;
+     left: 0;
+}
+
+/* Card */
+.card {
+     border-radius: 0;
+     box-shadow: 0px 10px 10px #eee;
+}
+
+/* Footer */
+footer {
+     padding: 40px 0 60px 0;
+}
+
+footer .nav-link {
+     color: rgba(255, 255, 255, 0.75);
+     padding-left: 0;
+     padding-right: 0;
+     margin: 0 10px;
+}
+
+footer .nav-link:hover {
+     color: #fff;
+}
+
+footer .nav-link.active {
+     color: #fff;
+     border-bottom: 1px solid #666;
+}
+footer .copyrights {
+     color: rgba(255, 255, 255, 0.75);
+     text-align: center;
+     margin-top: 10px;
+}
+
+footer .copyrights a {
+     color: rgba(255, 255, 255, 0.75);
+}
+
+footer .copyrights a:hover {
+     color: #fff;
+}
